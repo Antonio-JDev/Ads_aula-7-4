@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000c0;
+    color: #000000;
+    text-align: center; /* Centralizar tudo */
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  h1,
+  h2 {
+    color: #020101;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #999988;
+    color: rgb(11, 10, 10);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+    display: block; /* Centralizar botão */
+  }
+  
+  button:hover {
+    background-color: #6d7764d8;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 5px auto;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: calc(20% - 30px);
+    display: block; /* Centralizar input */
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Blocos coloridos */
+  #elementById,
+  [name='elementByName'],
+  .elementByClass {
+    padding: 10px;
+    margin: 10px auto;
+    width: 70%;
+    border-radius: 8px;
+    text-align: center; /* Centralizar texto dentro do bloco */
+  }
+  
+  /* Cor inicial (padrão) */
+  #elementById {
+    background-color: #34c211;
+  }
+  
+  [name='elementByName'] {
+    background-color: #34c211;
+  }
+  
+  .elementByClass {
+    background-color: #34c211;
+  }
+  
+  /* Caixas maiores (sections) */
+  section {
+    background-color: #085297;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  nav{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.barra2 {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.barra2 li {
+    border: 2px solid black;
+    padding: 10px 15px;
+    margin: 2px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.barra2 li:hover {
+    background-color: #37d832;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    font-size: 16px;
+}
